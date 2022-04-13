@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OnePage Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <!--For Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <!-- Bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <div id="header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <h1 class="logo">
+            <a href="index.html" class="navbar-brand">OnePage</a>
+          </h1>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header d-flex d-lg-none">
+              <button
+                type="button"
+                class="btn-close text-reset"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body me-4 ms-3 pt-2">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a href="#" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Team</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Pricing</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    href="#"
+                    class="nav-link dropdown-toggle"
+                    id="offcanvasNavbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Drop Down</a
+                  >
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="offcanvasNavbarDropdown"
+                  >
+                    <li>
+                      <a href="#" class="dropdown-item">Dropdown1</a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown-item"
+                        >Deep Drop Down
+                        <!-- <a href="#" class="nav-link dropdown-toggle text-right" id="offcanvasNavbarDropdown"
+                                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                                                    <li>
+                                                        <a href="#" class="dropdown-item">Deep Dropdown 1</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="dropdown-item">Deep Dropdown 2</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="dropdown-item">Deep Dropdown 3</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="dropdown-item">Deep Dropdown 4</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="dropdown-item">Deep Dropdown 5</a>
+                                                    </li>
+                                                </ul>
+                                            </a> -->
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown-item">Dropdown 2</a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown-item">Dropdown 3</a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown-item">Dropdown 4</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item ms-3 mx-3">
+                  <button class="btn btn-primary nav-link text-light px-3">
+                    Get Started
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- End Header -->
+
+    <!-- Hero Section -->
+
+    <section class="m-auto" id="hero">
+      <div class="container position-relative">
+        <div class="row justify-content-center">
+          <div class="col-xl-7 col-lg-9 text-center align-items-center">
+            <h1>One Page BootStrap Website Template</h1>
+            <h2 class="mt-5">We are team of talented designers</h2>
+          </div>
+        </div>
+
+        <div class="text-center mt-5">
+          <a href="#" class="btn px-5 py-2">Get Started</a>
+        </div>
+
+        <div class="row icon-boxes">
+          <div
+            class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+          >
+            <div class="icon-box">
+              <div class="icon">
+                <i class="fas fa-unlock-alt"></i>
+              </div>
+              <h1 class="title">Lorem Ipsum</h1>
+              <p class="description">
+                Voluptatum deleniti atque corrupti quos dolores et quas
+                molestias excepturi
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+          >
+            <div class="icon-box">
+              <div class="icon">
+                <i class="fas fa-home"></i>
+              </div>
+              <h1 class="title">Sed ut perspiciatis</h1>
+              <p class="description">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+          >
+            <div class="icon-box">
+              <div class="icon">
+                <i class="fas fa-palette"></i>
+              </div>
+              <h1 class="title">Magni Dolores</h1>
+              <p class="description">
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+          >
+            <div class="icon-box">
+              <div class="icon">
+                <i class="fas fa-fingerprint"></i>
+              </div>
+              <h1 class="title">Nemo Enim</h1>
+              <p class="description">
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                blanditiis
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
+      <!-- About Section -->
+      <section id="about" class="about">
+        <div class="container">
+          <div class="section-title">
+            <h1
+              class="h2 align-items-center text-center justify-content-center"
+            >
+              ABOUT US
+            </h1>
+            <p class="text-center">
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem.
+            </p>
+          </div>
+          <div class="row content">
+            <div class="col-lg-6 lh-lg fs-22px">
+              <p class="mt-0">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <ul class="list-unstyled p-0">
+                <li>
+                  <i class="fas fa-check-double"></i>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat
+                </li>
+                <li>
+                  <i class="fas fa-check-double"></i>
+                  Duis aute irure dolor in reprehenderit in voluptate velit
+                </li>
+                <li>
+                  <i class="fas fa-check-double"></i>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequatuat
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-6 lh-lg">
+              <p>
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum.
+              </p>
+              <a href="#" class="btn btn-outline-primary px-5"> Learn More </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End About Section -->
+
+      <!-- Counts Section -->
+      <section class="counts section-bg my-5" id="counts ">
+        <div class="container my-3">
+          <div class="row justify-content-end">
+            <div
+              class="col-lg-3 col-md-5 col-6 col-md-stretch align-items-md-stretch"
+            >
+              <div class="count-box">
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="65"
+                  data-pure-counter-duration="0"
+                  class="purecounter"
+                >
+                  65
+                </span>
+                <p>Pure Clients</p>
+              </div>
+            </div>
+            <div
+              class="col-lg-3 col-md-5 col-6 col-md-stretch align-items-md-stretch"
+            >
+              <div class="count-box">
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="85"
+                  data-pure-counter-duration="0"
+                  class="purecounter"
+                >
+                  85
+                </span>
+                <p>Projects</p>
+              </div>
+            </div>
+            <div
+              class="col-lg-3 col-md-5 col-6 col-md-stretch align-items-md-stretch"
+            >
+              <div class="count-box">
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="85"
+                  data-pure-counter-duration="0"
+                  class="purecounter"
+                >
+                  30
+                </span>
+                <p>Years of experience</p>
+              </div>
+            </div>
+            <div
+              class="col-lg-3 col-md-5 col-6 col-md-stretch align-items-md-stretch"
+            >
+              <div class="count-box">
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="20"
+                  data-pure-counter-duration="0"
+                  class="purecounter"
+                >
+                  20
+                </span>
+                <p>Awards</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Counts Section -->
+
+      <!-- About Video Section -->
+      <section id="about-video" class="about-video pt-3 overflow-hidden">
+        <div class="container w-100">
+          <div class="row">
+            <div class="col-lg-6 video-box align-self-baseline">
+              <img src="/img/about-video.jpg" alt="" class="img-fluid h-auto" />
+              <!-- <a href="https://www.youtube.com/watch?v=jO2viLEW-1A" class="glightbox play-btn mb-4"
+                            data-vbtype="video" data-autoplay="true">
+                        </a> -->
+            </div>
+            <div class="col-lg-6 pt-3 content">
+              <h1 class="h3">
+                Voluptatem dignissimos provident quasi corporis voluptates sit
+                assumenda.
+              </h1>
+              <p class="fst-italic">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <ul class="list-unstyled p-0">
+                <li>
+                  <i class="fas fa-check-double"></i>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </li>
+                <li>
+                  <i class="fas fa-check-double"></i>
+                  Duis aute irure dolor in reprehenderit in voluptate velit.
+                </li>
+                <li>
+                  <i class="fas fa-check-double"></i>
+                  Duis aute irure dolor in reprehenderit in voluptate velit.
+                </li>
+                <li>
+                  <i class="fas fa-check-double"></i>
+                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                  aute irure dolor in reprehenderit in voluptate trideta
+                  storacalaperda mastiro dolore eu fugiat nulla pariatur.
+                </li>
+              </ul>
+              <p class="pt-3">
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End About Video Section -->
+
+      <!-- Clients Section -->
+      <section id="clients" class="clients section-bg mt-5">
+        <div class="container py-3">
+          <div class="row">
+            <div
+              class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
+            >
+              <img src="/img/client-1.png" alt="" class="img-fluid" />
+            </div>
+            <div
+              class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
+            >
+              <img src="/img/client-2.png" alt="" class="img-fluid" />
+            </div>
+            <div
+              class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
+            >
+              <img src="/img/client-3.png" alt="" class="img-fluid" />
+            </div>
+            <div
+              class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
+            >
+              <img src="/img/client-4.png" alt="" class="img-fluid" />
+            </div>
+            <div
+              class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
+            >
+              <img src="/img/client-5.png" alt="" class="img-fluid" />
+            </div>
+            <div
+              class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
+            >
+              <img src="/img/client-6.png" alt="" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Clients Section -->
+
+      <!-- Testimonials Section -->
+
+      <section id="testimonials" class="testimonials">
+        <div class="container">
+          <div class="section-title text-center mt-5">
+            <h2>TESTIMONIALS</h2>
+            <p>
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- End Testimonials Section -->
+
+      <!-- Service Section -->
+
+      <section id="services" class="services">
+        <div class="container">
+          <div class="section-title mt-5 pt-5 text-center">
+            <h2>SERVICES</h2>
+            <p>
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+              <div class="icon-box iconbox-blue">
+                <div class="icon">
+                  <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dribbble" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8 0C3.584 0 0 3.584 0 8s3.584 8 8 8c4.408 0 8-3.584 8-8s-3.592-8-8-8zm5.284 3.688a6.802 6.802 0 0 1 1.545 4.251c-.226-.043-2.482-.503-4.755-.217-.052-.112-.096-.234-.148-.355-.139-.33-.295-.668-.451-.99 2.516-1.023 3.662-2.498 3.81-2.69zM8 1.18c1.735 0 3.323.65 4.53 1.718-.122.174-1.155 1.553-3.584 2.464-1.12-2.056-2.36-3.74-2.551-4A6.95 6.95 0 0 1 8 1.18zm-2.907.642A43.123 43.123 0 0 1 7.627 5.77c-3.193.85-6.013.833-6.317.833a6.865 6.865 0 0 1 3.783-4.78zM1.163 8.01V7.8c.295.01 3.61.053 7.02-.971.199.381.381.772.555 1.162l-.27.078c-3.522 1.137-5.396 4.243-5.553 4.504a6.817 6.817 0 0 1-1.752-4.564zM8 14.837a6.785 6.785 0 0 1-4.19-1.44c.12-.252 1.509-2.924 5.361-4.269.018-.009.026-.009.044-.017a28.246 28.246 0 0 1 1.457 5.18A6.722 6.722 0 0 1 8 14.837zm3.81-1.171c-.07-.417-.435-2.412-1.328-4.868 2.143-.338 4.017.217 4.251.295a6.774 6.774 0 0 1-2.924 4.573z"/>
+                            </svg> -->
+                  <i class="bi bi-dribbble"> </i>
+                </div>
+                <h4>
+                  <a href="#">Loren Ipsum</a>
+                </h4>
+                <p>
+                  Voluptatum deleniti atque corrupti quos dolores et quas
+                  molestias excepturi
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+              <div class="icon-box iconbox-blue">
+                <div class="icon">
+                  <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark" viewBox="0 0 16 16">
+                                <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2z"/>
+                            </svg> -->
+                  <i class="bi bi-arrow-down-circle-fill"></i>
+                </div>
+                <h4>
+                  <a href="#">Sed Perspiciatis</a>
+                </h4>
+                <p>
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+              <div class="icon-box iconbox-blue">
+                <div class="icon">
+                  <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark" viewBox="0 0 16 16">
+                                <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2z"/>
+                            </svg> -->
+                  <i class="bi bi-file-earmark"> </i>
+                </div>
+                <h4>
+                  <a href="#" class="textt-decoration-none">Magni Dolores</a>
+                </h4>
+                <p>
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-center">
+              <div class="icon-box iconbox-blue">
+                <div class="icon">
+                  <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-speedometer2" viewBox="0 0 16 16">
+                                <path d="M8 4a.5.5 0 0 1 .5.5V6a.5.5 0 0 1-1 0V4.5A.5.5 0 0 1 8 4zM3.732 5.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707zM2 10a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 10zm9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5zm.754-4.246a.389.389 0 0 0-.527-.02L7.547 9.31a.91.91 0 1 0 1.302 1.258l3.434-4.297a.389.389 0 0 0-.029-.518z"/>
+                                <path fill-rule="evenodd" d="M0 10a8 8 0 1 1 15.547 2.661c-.442 1.253-1.845 1.602-2.932 1.25C11.309 13.488 9.475 13 8 13c-1.474 0-3.31.488-4.615.911-1.087.352-2.49.003-2.932-1.25A7.988 7.988 0 0 1 0 10zm8-7a7 7 0 0 0-6.603 9.329c.203.575.923.876 1.68.63C4.397 12.533 6.358 12 8 12s3.604.532 4.923.96c.757.245 1.477-.056 1.68-.631A7 7 0 0 0 8 3z"/>
+                            </svg> -->
+                  <i class="bi bi-speedometer2"> </i>
+                </div>
+                <h4>
+                  <a href="#">Nemo Enim</a>
+                </h4>
+                <p>
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-center">
+              <div class="icon-box iconbox-blue">
+                <div class="icon">
+                  <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-stack" viewBox="0 0 16 16">
+                                <path d="m14.12 10.163 1.715.858c.22.11.22.424 0 .534L8.267 15.34a.598.598 0 0 1-.534 0L.165 11.555a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.66zM7.733.063a.598.598 0 0 1 .534 0l7.568 3.784a.3.3 0 0 1 0 .535L8.267 8.165a.598.598 0 0 1-.534 0L.165 4.382a.299.299 0 0 1 0-.535L7.733.063z"/>
+                                <path d="m14.12 6.576 1.715.858c.22.11.22.424 0 .534l-7.568 3.784a.598.598 0 0 1-.534 0L.165 7.968a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.659z"/>
+                            </svg> -->
+                  <i class="bi bi-stack"> </i>
+                </div>
+                <h4>
+                  <a href="">Dele Cardo</a>
+                </h4>
+                <p>
+                  Quis consequatur saepe eligendi voluptatem consequatur dolor
+                  consequuntur
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 d-flex align-items-center">
+              <div class="icon-box iconbox-blue">
+                <div class="icon">
+                  <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-binoculars" viewBox="0 0 16 16">
+                                <path d="M3 2.5A1.5 1.5 0 0 1 4.5 1h1A1.5 1.5 0 0 1 7 2.5V5h2V2.5A1.5 1.5 0 0 1 10.5 1h1A1.5 1.5 0 0 1 13 2.5v2.382a.5.5 0 0 0 .276.447l.895.447A1.5 1.5 0 0 1 15 7.118V14.5a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 14.5v-3a.5.5 0 0 1 .146-.354l.854-.853V9.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v.793l.854.853A.5.5 0 0 1 7 11.5v3A1.5 1.5 0 0 1 5.5 16h-3A1.5 1.5 0 0 1 1 14.5V7.118a1.5 1.5 0 0 1 .83-1.342l.894-.447A.5.5 0 0 0 3 4.882V2.5zM4.5 2a.5.5 0 0 0-.5.5V3h2v-.5a.5.5 0 0 0-.5-.5h-1zM6 4H4v.882a1.5 1.5 0 0 1-.83 1.342l-.894.447A.5.5 0 0 0 2 7.118V13h4v-1.293l-.854-.853A.5.5 0 0 1 5 10.5v-1A1.5 1.5 0 0 1 6.5 8h3A1.5 1.5 0 0 1 11 9.5v1a.5.5 0 0 1-.146.354l-.854.853V13h4V7.118a.5.5 0 0 0-.276-.447l-.895-.447A1.5 1.5 0 0 1 12 4.882V4h-2v1.5a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V4zm4-1h2v-.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5V3zm4 11h-4v.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5V14zm-8 0H2v.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5V14z"/>
+                              </svg> -->
+                  <i class="bi bi-binoculars"> </i>
+                </div>
+                <h4>
+                  <a href="">Divera Don</a>
+                </h4>
+                <p>
+                  Modi nostrum vel laborum. Porro fugit error sit minus sapiente
+                  sit aspernatur
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Services Section -->
+
+      <!-- CTA Section -->
+      <section id="cta" class="cta mt-5">
+        <div class="container">
+          <div class="text-center">
+            <h4>Call To Action</h4>
+            <p class="pt-2">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+              cupidatat non proident, sunt in culpa qui officia deserunt mollit
+              anim id est laborum.
+            </p>
+            <a href="#" class="btn cta-btn text-white mt-3"> Call To Action </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio Section -->
+
+      <!-- <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-title text-center mt-5 pt-5">
+                <h2>Portfolio</h2>
+                <p>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 justify-content-center">
+                    <ul class="portfolio-filters">
+                        <li data-filter="*" class="fiter-active">All</li>
+                        <li data-filter=".filter-app" class >App</li>
+                        <li data-filter=".filter-card" class >Card</li>
+                        <li data-filter=".filter-web" class >Web</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row portfolio-container" style="position: relative; height: 4063.08px;">
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute;left: 0px;">
+
+                </div>
+            </div>
+        </div>
+    </section> -->
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  </body>
+</html>
